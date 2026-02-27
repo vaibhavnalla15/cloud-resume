@@ -74,10 +74,10 @@ cloud-resume-challenge/
 ## 🖼️ Project Screenshots
 
 ### Resume Homepage
-![Resume Homepage](assets/images/ss-1.png)
+![Resume Homepage](./assets/images/SS-1.png)
 
 ### Visitor Counter in Action
-![Visitor Counter](assets/images/ss-2.png)
+![Visitor Counter](./assets/images/ss-2.png)
 
 
 ---
