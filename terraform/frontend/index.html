@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vaibhav Nalla | Cloud Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <h1>VAIBHAV NALLA</h1>
+
+    <p>
+        📞 +91 9371362938 <br>
+        📧 vaibhavnalla15@gmail.com <br>
+        🔗 GitHub:
+        <a href="https://github.com/vaibhavnalla15" target="_blank">
+            github.com/vaibhavnalla15
+        </a>
+        <br>
+        🔗 LinkedIn:
+        <a href="https://www.linkedin.com/in/vaibhav-nalla-2b4571209" target="_blank">
+            linkedin.com/in/vaibhav-nalla-2b4571209
+        </a>
+    </p>
+
+    <hr>
+
+    <!-- SUMMARY -->
+    <h2>SUMMARY</h2>
+
+    <p>
+        Aspiring Cloud Engineer with hands-on exposure to AWS and cloud-native tools,
+        actively building real-world projects. AWS Solutions Architect Associate certified,
+        with experience in serverless architectures, Docker containerization,
+        Infrastructure as Code (Terraform), and CI/CD pipelines. Highly motivated,
+        quick to learn, and focused on developing production-ready cloud engineering skills.
+    </p>
+
+    <hr>
+
+    <!-- TECHNICAL SKILLS -->
+    <h2>TECHNICAL SKILLS</h2>
+
+    <ul>
+        <li><strong>Cloud:</strong> AWS (EC2, VPC, S3, IAM, CloudFront, ELB, Lambda, DynamoDB)</li>
+        <li><strong>DevOps Tools:</strong> Docker, Terraform, GitHub Actions (CI/CD)</li>
+        <li><strong>Programming & Scripting:</strong> Python (Basics), Bash Scripting</li>
+        <li><strong>Operating Systems:</strong> Linux</li>
+        <li><strong>Version Control:</strong> Git, GitHub</li>
+    </ul>
+
+    <hr>
+
+    <!-- PROJECTS -->
+    <h2>PROJECTS</h2>
+
+    <h3>1. Cloud Resume Challenge (AWS)</h3>
+
+    <p><strong>Key Features:</strong></p>
+    <ul>
+        <li>Static website hosting using Amazon S3</li>
+        <li>Global content delivery using CloudFront</li>
+        <li>Serverless backend using AWS Lambda and DynamoDB</li>
+        <li>Infrastructure provisioning using Terraform</li>
+        <li>Automated deployment using GitHub Actions</li>
+        <li>Secure access using IAM least-privilege principles</li>
+    </ul>
+
+    <p><strong>Tech Stack:</strong> AWS S3, CloudFront, AWS Lambda (Python),
+        DynamoDB, Terraform, GitHub Actions</p>
+
+    <p>
+        <strong>Description:</strong><br>
+        Built a serverless cloud-based resume hosted on AWS. The frontend is a static
+        website served globally using CloudFront, while backend functionality such as
+        a visitor counter is implemented using AWS Lambda and DynamoDB.
+        Infrastructure is managed using Infrastructure as Code and deployments are
+        automated using CI/CD.
+    </p>
+
+    <h3>2. Dockerized Rock-Paper-Scissors Application</h3>
+
+    <p><strong>Key Features:</strong></p>
+    <ul>
+        <li>Application containerization using Docker</li>
+        <li>Custom Dockerfile for packaging application and dependencies</li>
+        <li>Consistent runtime environment across systems</li>
+        <li>Portability for deployment on AWS ECS or Kubernetes</li>
+        <li>Foundation for CI/CD-based container deployment</li>
+    </ul>
+
+    <p><strong>Tech Stack:</strong> Docker, YAML, Python, Git, GitHub</p>
+
+    <p>
+        <strong>Description:</strong><br>
+        Developed a Rock-Paper-Scissors game and containerized it using Docker to
+        ensure consistent execution across environments. The application is packaged
+        using a Dockerfile, making it portable and cloud-ready for deployment on
+        container orchestration platforms.
+    </p>
+
+    <hr>
+
+    <!-- CERTIFICATIONS -->
+    <h2>CERTIFICATIONS</h2>
+
+    <ul>
+        <li>AWS Certified Solutions Architect – Associate (SAA-C03)</li>
+    </ul>
+
+    <hr>
+
+    <!-- VISITOR COUNTER -->
+    <h2>Visitor Count</h2>
+    <p>
+        Visitors: <span id="counter">Loading...</span>
+    </p>
+
+    <!-- <h2 id="js-test">JS NOT RUNNING</h2> -->   # Debugging Script
+
+    <script>
+        // Proof JS is running
+        document.getElementById("js-test").innerText = "JS RUNNING";
+
+        const API_URL = "https://fd3dyql07h.execute-api.us-east-1.amazonaws.com/count";
+
+        fetch(API_URL)
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("counter").innerText = data.count;
+            })
+            .catch(error => {
+                console.error("Fetch failed:", error);
+                document.getElementById("counter").innerText = "ERROR";
+            });
+    </script>
+
+    <!-- <script>
+        alert("JS IS EXECUTING");
+    </script> -->   # Debugging Script
+
+</body>
+
+</html>

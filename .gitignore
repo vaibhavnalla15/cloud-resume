@@ -1,0 +1,65 @@
+# -------------------------------
+# OS / Editor files
+# -------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------------
+# Python (Lambda)
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env.local
+
+# -------------------------------
+# Terraform
+# -------------------------------
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state files (VERY IMPORTANT)
+*.tfstate
+*.tfstate.backup
+
+# Terraform variables with secrets
+terraform.tfvars
+*.tfvars
+
+# -------------------------------
+# Node (if frontend build tools used)
+# -------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -------------------------------
+# AWS / Credentials
+# -------------------------------
+.aws/
+credentials
+config
+
+# -------------------------------
+# Build / Output
+# -------------------------------
+dist/
+build/
+out/
+
+# -------------------------------
+# Logs
+# -------------------------------
+*.log
+
+# -------------------------------
+# Misc
+# -------------------------------
+coverage/
+.cache/
