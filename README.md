@@ -77,7 +77,7 @@ cloud-resume-challenge/
 ![Resume Homepage](./assets/images/SS-1.png)
 
 ### Visitor Counter in Action
-![Visitor Counter](./assets/images/ss-2.png)
+![Visitor Counter](./assets/images/SS-2.png)
 
 
 ---
