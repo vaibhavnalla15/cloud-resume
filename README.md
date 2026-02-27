@@ -218,4 +218,4 @@ Designed and deployed a serverless cloud resume on AWS, automated infrastructure
 This project demonstrates real-world cloud engineering practices —
 from architecture design and automation to validation and responsible cleanup.
 
-It is fully reproducible, cost-efficient, and production-aligned.
+It is fully reproducible, cost-efficient, and production-aligned. 
